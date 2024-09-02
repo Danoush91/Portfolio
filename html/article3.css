@@ -1,0 +1,53 @@
+/* Style général pour le fond de la page article3 */
+body {
+    background-image: url("fond-article.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* Style pour les éléments de texte en gras (<b>) */
+b {
+    font-size: 50; /* Taille de police à 50 */
+}
+
+/* Style pour la liste non ordonnée (ul) et ses éléments (li) */
+ul li {
+    margin: 10; /* Marge extérieure de 10  */
+    padding: 4; /* Rembourrage intérieur de 4  */
+    font-size: 150%; /* Taille de police à 150%  */
+    position: middle; /* Position relative au milieu  */
+    display: inline-block; /* Affiche les éléments en tant que blocs en ligne */
+}
+
+/* Style pour les liens (a) à l'intérieur des éléments de la liste */
+ul li a {
+    text-decoration: none; /* Supprime la décoration  */
+    color: #ff6100; /* Couleur du texte du lien */
+    letter-spacing: 0.1rem; /* Espacement entre les lettres */
+}
+
+/* Style pour le texte en italique (<em>) */
+em {
+    font-size: 40; /* Taille de police à 40  */
+    text-decoration: none; /* Supprime la décoration par défaut du texte en italique */
+    padding-bottom: 10px; /* Espacement en bas de 10  */
+    position: absolute; /* Position absolue  */
+    left: 600; /* Décalage à gauche de 600  */
+    color: white; /* Couleur du texte */
+    display: inline-block; /* Affiche le texte en tant que bloc en ligne */
+    list-style-type: none; /* Supprime la puce de la liste */
+}
+
+/* Style pour les paragraphes (<p>) */
+p {
+    font-size: 40; /* Taille de police à 40 */
+    text-decoration: none; /* Supprime la décoration p */
+    padding-bottom: 10px; /* Espacement en bas de 10  */
+    position: absolute; /* Position absolue  */
+    left: 810; /* Décalage à gauche de 810  */
+    color: white; /* Couleur du texte */
+}
+
+
+ 

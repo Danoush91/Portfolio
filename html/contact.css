@@ -1,0 +1,67 @@
+/* Style pour la liste non ordonnée (ul) et ses éléments (li) */
+ul li {
+    margin: 50; /* Marge extérieure de 50 */
+    padding: 25; /* Rembourrage intérieur de 25  */
+    left: 30%; /* Décalage à gauche de 30%  */
+    font-size: 200%; /* Taille de police à 200%  */
+    top: 25%; /* Décalage vers le bas de 25% t */
+    text-align: left; /* Alignement du texte à gauche */
+    list-style-type: none; /* Supprime la puce de la liste */
+    display: inline-block; /* Affiche les éléments en tant que blocs en ligne */
+}
+
+/* Style pour les liens (a) à l'intérieur des éléments de la liste */
+ul li a {
+    text-decoration: none; /* Supprime la décoration par défaut du lien */
+    color: #ff6100; /* Couleur du texte du lien */
+    letter-spacing: 0.1rem; /* Espacement entre les lettres à 0.1rem */
+}
+
+/* Style pour les liens (a) lorsqu'ils sont survolés */
+ul li a:hover {
+    background: #fff; /* Fond blanc lors du survol */
+    color: #000; /* Texte noir lors du survol */
+    transition: 0.6 ease; /* Transition de 0.6 seconde avec une accélération par défaut */
+}
+
+/* Style général pour le corps de la page contact */
+body {
+    font-family: Arial, sans-serif; /* Police de caractères et police de secours sans empattement */
+    background-image: url('fond contact.jpg'); /* Image de fond */
+    background-size: cover; /* Couvre l'intégralité de l'élément de manière proportionnelle */
+    background-position: center; /* Centre l'image de fond */
+    margin: 0; /* Supprime les marges par défaut du corps */
+    padding: 0; /* Supprime le rembourrage par défaut du corps */
+}
+
+/* Style pour le conteneur principal de la page */
+.container {
+    max-width: 800px; /* Largeur maximale du conteneur */
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    padding: 20px; /* Rembourrage intérieur de 20 */
+    background-color: #fff; /* Couleur de fond blanche */
+    border-radius: 5px; /* Bordure arrondie avec un rayon de 5px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère autour du conteneur */
+}
+
+/* Style pour les titres de niveau 2 */
+h2 {
+    text-align: center; /* Centre le texte horizontalement */
+}
+
+/* Style pour les éléments de contact individuels */
+.contact {
+    border: 1px solid #ccc; /* Bordure de 1px solide avec une couleur grise */
+    padding: 20px; /* Rembourrage intérieur de 20 */
+    margin-bottom: 20px; /* Marge en bas de 20  */
+}
+
+/* Style pour les titres de niveau 3 à l'intérieur des éléments de contact */
+.contact h3 {
+    margin: 0; /* Supprime la marge par défaut pour les titres h3 */
+}
+
+/* Style pour les paragraphes à l'intérieur des éléments de contact */
+.contact p {
+    margin: 0; /* Supprime la marge */
+}

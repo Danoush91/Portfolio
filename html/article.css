@@ -1,0 +1,41 @@
+/* Style général pour le fond de la page article */
+body {
+    background-image: url("fond article.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* Style pour la liste non ordonnée (ul) et ses éléments (li) */
+ul li {
+    margin: 50; /* Marge extérieure de 50 */
+    padding: 10; /* Rembourrage intérieur de 1*/
+    left: 30%; /* Décalage à gauche de 30%  */
+    font-size: 200%; /* Taille de police à 200%  */
+    position: middle; /* Position relative au milieu  */
+    top: 25%; /* Décalage vers le bas de 25%  */
+    list-style-type: none; /* Supprime les puces de la liste */
+    display: inline-block; /* Affiche les éléments en tant que blocs en ligne */
+    color: white; /* Couleur du texte */
+}
+
+/* Style pour les liens (a) à l'intérieur des éléments de la liste */
+ul li a {
+    text-decoration: none; /* Supprime la décoration par défaut du lien */
+    color: #ff6100; /* Couleur du texte du lien */
+    letter-spacing: 0.1rem; /* Espacement entre les lettres */
+    position: center; /* Position centrée */
+}
+
+/* Style pour les liens (a) au survol */
+ul li a:hover {
+    background: #fff; /* Fond blanc */
+    color: #000; /* Couleur du texte en noir */
+    transition: 0.6s ease; /* Transition fluide de 0.6 seconde avec une accélération en douceur */
+}
+
+	
+		
+
+	
+	

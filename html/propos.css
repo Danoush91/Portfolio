@@ -1,0 +1,68 @@
+/* Style pour les éléments de type "b" (gras) */
+b {
+    padding: 200; /* Ajoute un remplissage de 200  */
+    font-size: 300%; /* Taille de police à 300% de la taille normale */
+    top: 1%; /* Position en haut à 1% du conteneur parent */
+}
+
+/* Style pour les éléments de liste */
+ul li {
+    margin: 50; /* Marge extérieure de 50 */
+    padding: 25; /* Rembourrage intérieur de 25  */
+    left: 30%; /* Position à 30% de la largeur du conteneur parent */
+    font-size: 200%; /* Taille de police à 200% */
+    position: middle; /* Position centrale */
+    top: 25%; /* Position en haut à 25%  */
+    list-style-type: none; /* Supprime les puces de liste par défaut */
+    display: inline-block; /* Affiche les éléments en ligne les uns à côté des autres */
+}
+
+/* Style pour les liens dans la liste */
+ul li a {
+    text-decoration: none; /* Supprime la décoration de texte par défaut */
+    color: #ff6100; /* Couleur du texte orange */
+    letter-spacing: 0.1rem; /* Espacement des caractères de 0.1 unité */
+}
+
+/* Style général pour le corps de la page propos */
+body {
+    font-family: Arial, sans-serif; /* Police de caractères Arial ou sans-serif si Arial n'est pas disponible */
+    background-color: #0074e4; /* Couleur de fond bleue */
+    color: #fff; /* Couleur du texte blanc */
+    margin: 0; /* Aucune marge extérieure */
+    padding: 0; /* Aucun remplissage */
+}
+
+/* Style pour les liens au survol dans la liste */
+ul li a:hover {
+    background: #fff; /* Fond blanc au survol */
+    color: #000; /* Texte noir au survol */
+    transition: 0.6s ease; /* Transition fluide de 0.6 seconde avec une fonction d'accélération */
+}
+
+/* Style pour l'en-tête */
+header {
+    background-color: #0056aa; /* Couleur de fond bleu foncé */
+    text-align: center; /* Centrer le texte */
+    padding: 20px; /* Rembourrage de 20 */
+}
+
+/* Style pour les titres de niveau 1 */
+h1 {
+    font-size: 36px; /* Taille de police de 36 pixels */
+}
+
+/* Style pour le conteneur principal */
+.container {
+    max-width: 800px; /* Largeur maximale de 800 pixels */
+    margin: 0 auto; /* Centrer le conteneur */
+    padding: 20px; /* Rembourrage de 20 */
+    background-color: rgba(255, 255, 255, 0.1); /* Couleur de fond blanche avec une opacité de 0.1 */
+    border-radius: 10px; /* Bordure arrondie de 10 pixels */
+}
+
+/* Style pour les paragraphes */
+p {
+    font-size: 18px; /* Taille de police de 18 pixels */
+    line-height: 1.6; /* Hauteur de ligne de 1.6 (espace entre les lignes) */
+}

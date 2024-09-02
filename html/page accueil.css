@@ -1,0 +1,58 @@
+/* Style général pour le corps de la page page d'accueil */
+body {
+    background-image: url("fond1.jpg"); /* Image de fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image de fond */
+    background-attachment: fixed; /* Fixe l'image de fond par rapport à la fenêtre d'affichage */
+    background-size: 100% 100%; /* Redimensionne l'image de fond pour couvrir l'intégralité du corps */
+}
+
+/* Style pour la transition au survol des liens dans la liste */
+ul li a:hover {
+    background: #fff; /* Fond blanc au survol */
+    color: #000; /* Texte noir au survol */
+    transition: 0.6s ease; /* Transition fluide de 0.6 seconde avec une fonction d'accélération */
+}
+
+/* Style pour les éléments de type "b" (gras) */
+b {
+    padding: 200; /* Ajoute un remplissage de 200 */
+    font-size: 300%; /* Taille de police à 300% de la taille normale */
+    top: 1%; /* Position en haut à 1% du conteneur parent */
+}
+
+/* Style pour les éléments de liste */
+ul li {
+    margin: 50; /* Marge extérieure de 50  */
+    padding: 25; /* Rembourrage intérieur de 25  */
+    left: 30%; /* Position à 30%  */
+    font-size: 200%; /* Taille de police à 200%  */
+    position: middle; /* Position centrale */
+    top: 25%; /* Position en haut à 25%  */
+    list-style-type: none; /* Supprime les puces de liste par défaut */
+    display: inline-block; /* Affiche les éléments en ligne les uns à côté des autres */
+}
+
+/* Style pour les liens dans la liste */
+ul li a {
+    text-decoration: none; /* Supprime la décoration de texte par défaut */
+    color: #ff6100; /* Couleur du texte orange */
+    letter-spacing: 0.1rem; /* Espacement des caractères de 0.1 unité */
+}
+
+/* Style pour les éléments de type "em" (italique) */
+em {
+    font-size: 180%; /* Taille de police à 180% de la taille normale */
+    padding-bottom: 0px; /* Aucun remplissage en bas */
+    color: #71f153; /* Couleur du texte vert clair */
+}
+
+/* Style pour les paragraphes */
+p {
+    font-size: 40; /* Taille de police à 40 */
+    text-decoration: none; /* Supprime la décoration de texte par défaut */
+    padding-bottom: 10px; /* Rembourrage inférieur de 10  */
+    position: absolute; /* Position absolue par rapport à son conteneur parent */
+    left: 600; /* Position à 600 a gauche  */
+    color: white; /* Couleur du texte blanc */
+}
+
